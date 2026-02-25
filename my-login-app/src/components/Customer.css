@@ -1,0 +1,123 @@
+.customer-management-wrapper {
+  padding: 20px;
+  max-width: 1400px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* FORCE TEXT VISIBILITY */
+input,
+select,
+textarea {
+  color: #222 !important;
+  background: #fff;
+}
+
+/* HEADER */
+.customer-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 250px;
+}
+
+/* FORM */
+.add-form {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.form-grid input,
+.form-grid select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* PRODUCT SELECT */
+.inventory-products {
+  position: relative;
+}
+
+.selected-product {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: white;
+  color: #333;
+  cursor: pointer;
+}
+
+.inventory-dropdown {
+  position: absolute;
+  width: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  display: none;
+  z-index: 1000;
+}
+
+.inventory-products:hover .inventory-dropdown {
+  display: block;
+}
+
+.inventory-item {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  color: #333;
+}
+
+.inventory-item:hover {
+  background: #f1f1f1;
+}
+
+/* TABLE */
+.customers-table-container {
+  margin-top: 20px;
+}
+
+.customers-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customers-table th {
+  background: #4e73df;
+  color: white;
+  padding: 10px;
+}
+
+/* 🔥 FIX: FORCE TEXT VISIBLE */
+.customers-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  color: #222 !important;
+  background: white;
+}
+
+/* Row hover */
+.customers-table tr:hover td {
+  background: #f1f3f5;
+}
+
+/* DELETE BUTTON */
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}

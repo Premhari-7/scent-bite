@@ -1,0 +1,134 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #162938;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 2em;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Navigation menu (desktop) */
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navigation a {
+  font-size: 1.1em;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.navigation .btnLogin-popup {
+  width: 100px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  font-size: 1.1em;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: background 0.3s;
+}
+
+.navigation .btnLogin-popup:hover {
+  background: #162938;
+  color: #fff;
+}
+
+.greeting {
+  margin-left: 20px;
+  font-weight: bold;
+  color: #fff;
+  /* or whatever fits your theme */
+}
+
+/* Hamburger menu button */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+  z-index: 20;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: #fff;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.hamburger.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navigation {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    background: #162938;
+    padding: 20px;
+    transform: translateY(-20px);
+    /* small offset for entry animation */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .navigation.active {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .navigation.closing {
+    animation: pullUp 0.3s ease forwards;
+  }
+
+  @keyframes pullUp {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    100% {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+  }
+
+  .navigation a,
+  .navigation .btnLogin-popup {
+    margin: 10px 0;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}

@@ -1,0 +1,79 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Ensure full height and remove overflow issues */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Background image covers entire screen */
+.background-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+}
+
+/* Header styles */
+.header {
+  width: 100%;
+  padding: 20px 100px;
+  background-color: #9cc3cb;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+}
+
+/* Logo */
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation */
+.navigation a {
+  position: relative;
+  font-size: 1.1em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.navigation a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scalex(0);
+  transition: transform .5s;
+}
+
+.btnLogin-popup {
+  margin-left: 20px;
+  padding: 6px 12px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

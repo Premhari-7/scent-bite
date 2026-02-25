@@ -1,0 +1,107 @@
+.sales-report-page {
+  padding: 30px;
+  max-width: 1400px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* HEADER */
+.report-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.report-header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+/* DATE CARD */
+.date-selector-container {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  margin-bottom: 35px;
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.date-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: flex-end;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 220px;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.form-group input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* BUTTON */
+.generate-btn {
+  padding: 12px 26px;
+  background: #4e73df;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  height: 44px;
+}
+
+/* 🔥 BIG CHART CARD */
+.chart-container {
+  background: white;
+  padding: 30px;
+
+  border-radius: 18px;
+
+  box-shadow:
+    0 12px 32px rgba(0, 0, 0, 0.10);
+
+  /* 🔥 MAKE IT BIG */
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+
+/* STATUS TEXT */
+.loading,
+.no-data {
+  text-align: center;
+  padding: 60px;
+  font-size: 20px;
+  color: #7f8c8d;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .chart-container {
+    height: 350px;
+    padding: 20px;
+  }
+
+  .date-form {
+    flex-direction: column;
+  }
+
+  .generate-btn {
+    width: 100%;
+  }
+}

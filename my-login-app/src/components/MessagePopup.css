@@ -1,0 +1,58 @@
+.message-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 10px;
+}
+
+.message-popup {
+  background: rgb(255, 255, 255);
+  color: black;
+  padding: 20px 30px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.message-popup p {
+  margin: 20px 0 10px;
+  font-size: 16px;
+  word-wrap: break-word;
+}
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: red;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+/* Mobile responsive enhancements */
+@media screen and (max-width: 480px) {
+  .message-popup {
+    padding: 16px 20px;
+  }
+
+  .message-popup p {
+    font-size: 14px;
+  }
+
+  .close-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
