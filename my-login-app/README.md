@@ -1,125 +1,243 @@
-# Scent Bite – Full-Stack Perfume Shop Management System
+<div align="center">
 
-Scent Bite is a full-stack web application developed as a Capstone Project to manage perfume shop operations including inventory control, billing, employee management, customer tracking, and order processing.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:232526,100:414345&height=240&section=header&text=Scent%20Bite&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
 
-Capstone Project – Scored 100/100
+<br>
 
----
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&pause=1000&color=E0C097&center=true&vCenter=true&width=900&lines=Full-Stack+Perfume+Shop+Management+System;Capstone+Project+Scored+100%2F100;Inventory+%2B+Billing+%2B+Authentication+System" />
 
-## Project Overview
+<br><br>
 
-This system provides an integrated platform for managing retail perfume shop activities. It enables secure authentication, product inventory handling, automated billing, stock management, and structured data storage using MongoDB.
+<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,js,html,css,vscode,github" />
 
-The application follows a full-stack architecture using React for the frontend and Node.js with Express for the backend.
+<br><br>
 
----
+<img src="https://img.shields.io/badge/Frontend-React-black?style=for-the-badge&logo=react"/>
+<img src="https://img.shields.io/badge/Backend-Node.js-3C873A?style=for-the-badge&logo=node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/Database-MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/License-Private-darkred?style=for-the-badge"/>
 
-## Key Features
-
-### Authentication System
-- Employee registration
-- Secure login with password hashing (bcrypt)
-- Unique employee ID generation (EMP001, EMP002, etc.)
-
-### Product Management
-- Add new products
-- Auto-generate product IDs (PROD001, PROD002, etc.)
-- Update product stock
-- Delete products
-- Fetch all products from database
-
-### Billing and Orders
-- Create customer orders
-- Automatically reduce product stock after purchase
-- Store billing details including payment method
-- Retrieve order history
-
-### Employee Management
-- Update employee details
-- Delete employee records
-- View all employees
-
-### Customer Management
-- Add customers
-- View customer records
-- Delete customer entries
+</div>
 
 ---
 
-## Technologies Used
+# About Project
 
-### Frontend
-- React.js
-- Vite
-- CSS
+Scent Bite is a modern full-stack perfume shop management system developed as a Capstone Project to simplify perfume retail operations through an integrated digital platform.
 
-### Backend
-- Node.js
-- Express.js
+The system provides:
+- Inventory management
+- Billing and order processing
+- Employee authentication
+- Customer tracking
+- Secure database storage
+- Real-time stock updates
 
-### Database
-- MongoDB (Local MongoDB and MongoDB Atlas supported)
-- Mongoose ODM
-
-### Security and Middleware
-- bcryptjs for password hashing
-- CORS
-- Express JSON middleware
+Built using React, Node.js, Express, and MongoDB.
 
 ---
 
-## Installation and Setup
+<div align="center">
 
-### 1. Clone the Repository
+# Capstone Achievement
 
-git clone https://github.com/Premhari-7/scent-bite-capstone.git
-cd scent-bite-capstone
+<img src="https://img.shields.io/badge/Capstone%20Score-100%2F100-gold?style=for-the-badge"/>
 
-### 2. Install Dependencies
+<br><br>
 
-npm install
-
-### 3. Start Backend Server
-
-cd src/server
-node Server.cjs
-
-Backend runs at:
-http://localhost:5000
-
-### 4. Start Frontend Application
-
-npm run dev
-
-Frontend runs at:
-http://localhost:5173
-
-## Database Configuration
-
-Local MongoDB:
-mongodb://localhost:27017/UserDB
-
-MongoDB Atlas:
-Configure using environment variables for production use.
-
----
-
-## Developer
-
-Prem Hari S
-Full-Stack Developer  
-
-Capstone Project – Scored 100/100  
 Completed over a period of 3 months as part of academic evaluation.
 
-## License
+</div>
 
-Copyright (c) 2026 Prem Hari S
+---
 
-This project is the intellectual property of Prem Hari S.
-Unauthorized reproduction, redistribution, or commercial use
-without explicit permission is strictly prohibited.
+# Core Features
 
+```txt
+Employee authentication system
+Secure password hashing using bcrypt
+Auto-generated employee IDs
+Inventory management
+Product stock updates
+Automatic billing system
+Order history management
+Customer management
+Employee management
+MongoDB database integration
+Responsive user interface
+```
 
-## Project Structure
+---
 
+# Authentication System
+
+```txt
+Employee Registration
+Secure Login System
+bcrypt Password Hashing
+Unique Employee ID Generation
+Protected Authentication Flow
+```
+
+---
+
+# Inventory & Billing
+
+```txt
+Add and manage products
+Auto-generated product IDs
+Real-time stock reduction
+Billing and order tracking
+Payment method storage
+Purchase history retrieval
+```
+
+---
+
+# Customer & Employee Management
+
+```txt
+Add customer records
+View customer details
+Delete customer data
+Update employee information
+View all employee records
+Remove employee entries
+```
+
+---
+
+# Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,js,html,css" />
+
+</div>
+
+---
+
+# Backend Technologies
+
+| Technology | Purpose |
+|------------|---------|
+| Node.js | Backend Runtime |
+| Express.js | Server Framework |
+| MongoDB | Database |
+| Mongoose | ODM |
+| bcryptjs | Password Security |
+| CORS | Cross-Origin Support |
+
+---
+
+# Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/Premhari-7/scent-bite-capstone.git
+
+cd scent-bite-capstone
+```
+
+---
+
+# Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+# Start Backend Server
+
+```bash
+cd src/server
+
+node Server.cjs
+```
+
+Backend runs at:
+
+```txt
+http://localhost:5000
+```
+
+---
+
+# Start Frontend
+
+```bash
+npm run dev
+```
+
+Frontend runs at:
+
+```txt
+http://localhost:5173
+```
+
+---
+
+# Database Configuration
+
+## Local MongoDB
+
+```txt
+mongodb://localhost:27017/UserDB
+```
+
+---
+
+# Project Structure
+
+```txt
+scent-bite-capstone/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── server/
+│   └── assets/
+│
+├── public/
+│
+└── package.json
+```
+
+---
+
+# Developer
+
+<div align="center">
+
+## Prem Hari S
+
+Full-Stack Developer • UI Enthusiast • MERN Stack Learner
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=react,nodejs,mongodb,github,vscode" />
+
+</div>
+
+---
+
+# Project Status
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Made%20With-MERN%20Stack-blue?style=for-the-badge"/>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:232526,100:414345&height=120&section=footer"/>
+
+</div>
