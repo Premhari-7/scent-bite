@@ -1,3 +1,5 @@
+# Updated
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:232526,100:414345&height=240&section=header&text=Scent%20Bite&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
