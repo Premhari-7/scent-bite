@@ -1,21 +1,25 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=blur&height=280&color=0:020617,100:1E293B&text=SCENT%20BITE&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=40"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=gradient&customColorList=12,20,24&text=SCENT%20BITE&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=28&pause=1200&color=E2E8F0&center=true&vCenter=true&width=950&lines=Modern+Perfume+Management+Platform;Inventory+%2B+Billing+Automation;Built+with+MERN+Stack;Capstone+Project+Scored+100%2F100"/>
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=28&pause=1200&color=64748B&center=true&vCenter=true&width=1000&lines=Modern+Perfume+Management+Platform;Inventory+%2B+Billing+Automation;Built+with+Scalable+MERN+Architecture;Achieved+100%2F100+Project+Evaluation+Score"/>
 
 <br><br>
 
-<img src="https://skillicons.dev/icons?i=react,vue,nodejs,express,mongodb,js,ts,css,vite,github,vscode"/>
+<img src="https://skillicons.dev/icons?i=react,vue,nodejs,express,mongodb,js,ts,css,vite,github,vscode,figma"/>
 
 <br><br>
 
-<img src="https://img.shields.io/badge/MERN-FullStack-0F172A?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Capstone_Project-100%2F100-1E293B?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Status-Active-334155?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/UI-Responsive-475569?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/MERN-FullStack-black?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Project-Capstone-black?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Score-100%2F100-black?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/UI-Responsive-black?style=for-the-badge"/>
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Premhari-7&theme=github-compact&hide_border=true&area=true"/>
 
 </div>
 
@@ -23,34 +27,35 @@
 
 # Overview
 
-SCENT BITE is a modern full-stack perfume inventory and billing management application developed to automate and simplify perfume shop operations through intelligent workflow systems and responsive dashboard architecture.
+SCENT BITE is a modern full-stack perfume inventory and billing management platform developed to automate and simplify perfume shop operations through scalable workflow architecture and responsive dashboard systems.
 
-The platform combines scalable backend systems with modern frontend technologies to provide inventory tracking, billing automation, customer handling, employee management, and real-time business monitoring.
+The application combines modern frontend technologies with efficient backend management to provide inventory tracking, billing automation, employee handling, customer management, sales monitoring, and intelligent stock synchronization through a clean and professional user experience.
 
-Successfully presented as a Final Year Capstone Project and awarded a **100/100 evaluation score** for technical implementation, UI/UX quality, workflow automation, and full-stack architecture.
+This project achieved a **100/100 project evaluation score** for implementation quality, UI/UX design, workflow automation, and technical integration.
 
 ---
 
 # Features
 
-```txt id="h3e5rk"
+```txt id="t4v8px"
 Secure admin authentication
+Modern responsive dashboard
 Inventory management system
-Cloud image upload support
+Product image upload
+Billing and invoice workflow
 Automatic stock reduction
-Billing workflow management
-Low stock alert system
+Low stock alert notifications
 Customer management portal
-Employee management dashboard
-Sales analytics interface
-Responsive dashboard architecture
+Employee management system
+Sales analytics dashboard
 Search and filtering functionality
 Real-time inventory synchronization
+Business-oriented workflow management
 ```
 
 ---
 
-# Technology Stack
+# Tech Stack
 
 <div align="center">
 
@@ -62,12 +67,12 @@ Real-time inventory synchronization
 
 # Architecture
 
-```txt id="12ob4j"
+```txt id="n6s1yb"
 Frontend  -> React.js + Vite
 Backend   -> Node.js + Express.js
 Database  -> MongoDB
-Storage   -> Cloudinary + Multer
-UI Design -> Responsive Dashboard System
+Storage   -> Multer
+Design    -> Responsive Dashboard UI
 ```
 
 ---
@@ -76,7 +81,7 @@ UI Design -> Responsive Dashboard System
 
 ## Clone Repository
 
-```bash id="z4f2oc"
+```bash id="t9g4ks"
 git clone https://github.com/Premhari-7/scent-bite.git
 
 cd scent-bite
@@ -86,7 +91,7 @@ cd scent-bite
 
 ## Frontend Setup
 
-```bash id="2pbj92"
+```bash id="u1v5er"
 npm install
 
 npm run dev
@@ -96,7 +101,7 @@ npm run dev
 
 ## Backend Setup
 
-```bash id="t9xyga"
+```bash id="o3w8hy"
 cd backend
 
 npm install
@@ -106,29 +111,44 @@ node server.js
 
 ---
 
-# Workflow
+# Application Workflow
 
-```txt id="kr4wh5"
+```txt id="c7m2pe"
 1. Admin authentication
 2. Product inventory management
-3. Image upload handling
+3. Product image upload handling
 4. Billing workflow execution
-5. Dynamic stock synchronization
+5. Automatic stock synchronization
 6. MongoDB data management
-7. Sales analytics processing
-8. Low stock notification generation
+7. Sales analytics generation
+8. Low stock alert notifications
+```
+
+---
+
+# Core Highlights
+
+```txt id="r8x4fz"
+Full-stack MERN architecture
+Responsive dashboard interface
+Scalable inventory workflow
+Automated billing integration
+Professional UI/UX implementation
+Business-oriented application structure
+Clean and maintainable codebase
+Modern frontend architecture
 ```
 
 ---
 
 # Future Enhancements
 
-```txt id="mpq0fs"
+```txt id="b2q6ne"
 AI perfume recommendation engine
 Advanced analytics dashboard
 AI chatbot integration
 QR-based billing workflow
-Online payment gateway
+Online payment integration
 Mobile application support
 Multi-store management
 ```
@@ -149,7 +169,7 @@ Full-Stack Developer • Frontend Engineer • UI/UX Enthusiast
 
 <br><br>
 
-Built using modern web technologies and scalable MERN architecture.
+Built using scalable full-stack architecture and modern web technologies.
 
 </div>
 
@@ -157,6 +177,6 @@ Built using modern web technologies and scalable MERN architecture.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:020617,100:1E293B&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=12,20,24&section=footer"/>
 
 </div>
