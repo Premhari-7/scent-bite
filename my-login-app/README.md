@@ -1,110 +1,56 @@
-# Updated
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:232526,100:414345&height=240&section=header&text=Scent%20Bite&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=gradient&customColorList=12,20,24&text=SCENT%20BITE&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&pause=1000&color=E0C097&center=true&vCenter=true&width=900&lines=Full-Stack+Perfume+Shop+Management+System;Capstone+Project+Scored+100%2F100;Inventory+%2B+Billing+%2B+Authentication+System" />
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=28&pause=1200&color=64748B&center=true&vCenter=true&width=1000&lines=Modern+Perfume+Management+Platform;Inventory+%2B+Billing+Automation;Built+with+Scalable+MERN+Architecture;Achieved+100%2F100+Project+Evaluation+Score"/>
 
 <br><br>
 
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,js,html,css,vscode,github" />
+<img src="https://skillicons.dev/icons?i=react,vue,nodejs,express,mongodb,js,ts,css,vite,github,vscode,figma"/>
 
 <br><br>
 
-<img src="https://img.shields.io/badge/Frontend-React-black?style=for-the-badge&logo=react"/>
-<img src="https://img.shields.io/badge/Backend-Node.js-3C873A?style=for-the-badge&logo=node.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/Database-MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/License-Private-darkred?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/MERN-FullStack-black?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Project-Capstone-black?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Score-100%2F100-black?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/UI-Responsive-black?style=for-the-badge"/>
+
+<br><br>
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHZqOGs1dG1sdHBxZTZ2N2x5c2M2YmV0OHg0d2E0bW1xZGNhc2l0YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3orieYJ5E6MBrv0YSI/giphy.gif" width="260"/>
 
 </div>
 
 ---
 
-# About Project
+# Overview
 
-Scent Bite is a modern full-stack perfume shop management system developed as a Capstone Project to simplify perfume retail operations through an integrated digital platform.
+SCENT BITE is a modern full-stack perfume inventory and billing management platform developed to automate and simplify perfume shop operations through scalable workflow architecture and responsive dashboard systems.
 
-The system provides:
-- Inventory management
-- Billing and order processing
-- Employee authentication
-- Customer tracking
-- Secure database storage
-- Real-time stock updates
+The application combines modern frontend technologies with efficient backend management to provide inventory tracking, billing automation, employee handling, customer management, sales monitoring, and intelligent stock synchronization through a clean and professional user experience.
 
-Built using React, Node.js, Express, and MongoDB.
+This project achieved a **100/100 project evaluation score** for implementation quality, UI/UX design, workflow automation, and technical integration.
 
 ---
 
-<div align="center">
+# Features
 
-# Capstone Achievement
-
-<img src="https://img.shields.io/badge/Capstone%20Score-100%2F100-gold?style=for-the-badge"/>
-
-<br><br>
-
-Completed over a period of 3 months as part of academic evaluation.
-
-</div>
-
----
-
-# Core Features
-
-```txt
-Employee authentication system
-Secure password hashing using bcrypt
-Auto-generated employee IDs
-Inventory management
-Product stock updates
-Automatic billing system
-Order history management
-Customer management
-Employee management
-MongoDB database integration
-Responsive user interface
-```
-
----
-
-# Authentication System
-
-```txt
-Employee Registration
-Secure Login System
-bcrypt Password Hashing
-Unique Employee ID Generation
-Protected Authentication Flow
-```
-
----
-
-# Inventory & Billing
-
-```txt
-Add and manage products
-Auto-generated product IDs
-Real-time stock reduction
-Billing and order tracking
-Payment method storage
-Purchase history retrieval
-```
-
----
-
-# Customer & Employee Management
-
-```txt
-Add customer records
-View customer details
-Delete customer data
-Update employee information
-View all employee records
-Remove employee entries
+```txt id="1bwq5x"
+Secure admin authentication
+Modern responsive dashboard
+Inventory management system
+Product image upload
+Billing and invoice workflow
+Automatic stock reduction
+Low stock alert notifications
+Customer management portal
+Employee management system
+Sales analytics dashboard
+Search and filtering functionality
+Real-time inventory synchronization
+Business-oriented workflow management
 ```
 
 ---
@@ -113,22 +59,21 @@ Remove employee entries
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,js,html,css" />
+<img src="https://skillicons.dev/icons?i=react,vue,nodejs,express,mongodb,js,ts,css,vite"/>
 
 </div>
 
 ---
 
-# Backend Technologies
+# Architecture
 
-| Technology | Purpose |
-|------------|---------|
-| Node.js | Backend Runtime |
-| Express.js | Server Framework |
-| MongoDB | Database |
-| Mongoose | ODM |
-| bcryptjs | Password Security |
-| CORS | Cross-Origin Support |
+```txt id="f0nd7w"
+Frontend  -> React.js + Vite
+Backend   -> Node.js + Express.js
+Database  -> MongoDB
+Storage   -> Multer
+Design    -> Responsive Dashboard UI
+```
 
 ---
 
@@ -136,103 +81,95 @@ Remove employee entries
 
 ## Clone Repository
 
-```bash
-git clone https://github.com/Premhari-7/scent-bite-capstone.git
+```bash id="l3w8ns"
+git clone https://github.com/Premhari-7/scent-bite.git
 
-cd scent-bite-capstone
+cd scent-bite
 ```
 
 ---
 
-# Install Dependencies
+## Frontend Setup
 
-```bash
+```bash id="s8o1zp"
 npm install
-```
 
----
-
-# Start Backend Server
-
-```bash
-cd src/server
-
-node Server.cjs
-```
-
-Backend runs at:
-
-```txt
-http://localhost:5000
-```
-
----
-
-# Start Frontend
-
-```bash
 npm run dev
 ```
 
-Frontend runs at:
+---
 
-```txt
-http://localhost:5173
+## Backend Setup
+
+```bash id="y5g2rq"
+cd backend
+
+npm install
+
+node server.js
 ```
 
 ---
 
-# Database Configuration
+# Application Workflow
 
-## Local MongoDB
-
-```txt
-mongodb://localhost:27017/UserDB
+```txt id="o9m4xd"
+1. Admin authentication
+2. Product inventory management
+3. Product image upload handling
+4. Billing workflow execution
+5. Automatic stock synchronization
+6. MongoDB data management
+7. Sales analytics generation
+8. Low stock alert notifications
 ```
 
 ---
 
-# Project Structure
+# Core Highlights
 
-```txt
-scent-bite-capstone/
-│
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── server/
-│   └── assets/
-│
-├── public/
-│
-└── package.json
+```txt id="t7r2ke"
+Full-stack MERN architecture
+Responsive dashboard interface
+Scalable inventory workflow
+Automated billing integration
+Professional UI/UX implementation
+Business-oriented application structure
+Clean and maintainable codebase
+Modern frontend architecture
 ```
 
 ---
+
+# Future Enhancements
+
+```txt id="d2q8vy"
+AI perfume recommendation engine
+Advanced analytics dashboard
+AI chatbot integration
+QR-based billing workflow
+Online payment integration
+Mobile application support
+Multi-store management
+```
+
+---
+
+<div align="center">
 
 # Developer
 
-<div align="center">
+### Prem Hari S
 
-## Prem Hari S
-
-Full-Stack Developer • UI Enthusiast • MERN Stack Learner
+Full-Stack Developer • Frontend Engineer • UI/UX Enthusiast
 
 <br>
 
-<img src="https://skillicons.dev/icons?i=react,nodejs,mongodb,github,vscode" />
+<img src="https://skillicons.dev/icons?i=react,nodejs,mongodb,github,vscode"/>
 
-</div>
+<br><br>
 
----
-
-# Project Status
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Made%20With-MERN%20Stack-blue?style=for-the-badge"/>
+Built using scalable full-stack architecture and modern web technologies.
 
 </div>
 
@@ -240,6 +177,6 @@ Full-Stack Developer • UI Enthusiast • MERN Stack Learner
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:232526,100:414345&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=12,20,24&section=footer"/>
 
 </div>
