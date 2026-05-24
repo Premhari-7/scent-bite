@@ -19,7 +19,7 @@
 
 <br><br>
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHZqOGs1dG1sdHBxZTZ2N2x5c2M2YmV0OHg0d2E0bW1xZGNhc2l0YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3orieYJ5E6MBrv0YSI/giphy.gif" width="260"/>
+<img src="https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif" width="300"/>
 
 </div>
 
@@ -37,7 +37,7 @@ This project achieved a **100/100 project evaluation score** for implementation 
 
 # Features
 
-```txt id="1bwq5x"
+```txt
 Secure admin authentication
 Modern responsive dashboard
 Inventory management system
@@ -67,7 +67,7 @@ Business-oriented workflow management
 
 # Architecture
 
-```txt id="f0nd7w"
+```txt
 Frontend  -> React.js + Vite
 Backend   -> Node.js + Express.js
 Database  -> MongoDB
@@ -81,7 +81,7 @@ Design    -> Responsive Dashboard UI
 
 ## Clone Repository
 
-```bash id="l3w8ns"
+```bash
 git clone https://github.com/Premhari-7/scent-bite.git
 
 cd scent-bite
@@ -91,7 +91,7 @@ cd scent-bite
 
 ## Frontend Setup
 
-```bash id="s8o1zp"
+```bash
 npm install
 
 npm run dev
@@ -101,7 +101,7 @@ npm run dev
 
 ## Backend Setup
 
-```bash id="y5g2rq"
+```bash
 cd backend
 
 npm install
@@ -113,7 +113,7 @@ node server.js
 
 # Application Workflow
 
-```txt id="o9m4xd"
+```txt
 1. Admin authentication
 2. Product inventory management
 3. Product image upload handling
@@ -128,7 +128,7 @@ node server.js
 
 # Core Highlights
 
-```txt id="t7r2ke"
+```txt
 Full-stack MERN architecture
 Responsive dashboard interface
 Scalable inventory workflow
@@ -143,7 +143,7 @@ Modern frontend architecture
 
 # Future Enhancements
 
-```txt id="d2q8vy"
+```txt
 AI perfume recommendation engine
 Advanced analytics dashboard
 AI chatbot integration
