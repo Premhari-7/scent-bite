@@ -1,10 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:1E293B&height=250&section=header&text=SCENT%20BITE&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:111827,100:1E293B&height=300&section=header&text=SCENT%20BITE&fontSize=55&fontColor=ffffff&animation=twinkling&fontAlignY=40"/>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&pause=1000&color=CBD5E1&center=true&vCenter=true&width=900&lines=Modern+Perfume+Management+Platform;Inventory+%2B+Billing+Automation;Full+Stack+MERN+Capstone+Project;Scored+100%2F100+in+Final+Evaluation"/>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=30&pause=1000&color=94A3B8&center=true&vCenter=true&random=false&width=1000&lines=Modern+Perfume+Management+System;Full+Stack+MERN+Architecture;Inventory+%2B+Billing+Automation;Capstone+Project+Scored+100%2F100"/>
+
+<br><br>
+
+<img src="https://github-profile-trophy.vercel.app/?username=Premhari-7&theme=algolia&no-frame=true&row=1&column=6"/>
 
 <br><br>
 
@@ -12,47 +16,45 @@
 
 <br><br>
 
-<img src="https://img.shields.io/github/stars/Premhari-7/scent-bite?style=for-the-badge&color=111827"/>
-<img src="https://img.shields.io/github/forks/Premhari-7/scent-bite?style=for-the-badge&color=1E293B"/>
+<img src="https://img.shields.io/github/stars/Premhari-7/scent-bite?style=for-the-badge&logo=github&color=111827"/>
+<img src="https://img.shields.io/github/forks/Premhari-7/scent-bite?style=for-the-badge&logo=github&color=334155"/>
 <img src="https://img.shields.io/badge/MERN-FullStack-0F172A?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Capstone-100%2F100-334155?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Capstone-100%2F100-1E293B?style=for-the-badge"/>
 
 </div>
 
 ---
 
-# About Project
+# System Overview
 
-SCENT BITE is a modern full-stack perfume inventory and billing management system developed to automate and simplify perfume shop operations through intelligent workflow management and responsive UI design.
+SCENT BITE is a modern full-stack perfume inventory and billing management platform developed to automate perfume shop workflows through intelligent dashboard architecture and scalable business management systems.
 
-The platform provides real-time inventory tracking, automated billing, stock monitoring, employee management, customer handling, and scalable dashboard architecture for business-oriented management systems.
+The application combines responsive frontend technologies with backend automation to deliver efficient inventory monitoring, billing operations, customer handling, and sales management.
 
-This project was successfully presented as a Final Year Capstone Project and achieved a perfect **100/100 evaluation score** for implementation quality, UI/UX design, workflow automation, and technical integration.
+Developed as a Final Year Capstone Project and awarded a perfect **100/100 evaluation score** for technical implementation, workflow automation, UI design, and full-stack integration.
 
 ---
 
-# Features
+# Platform Features
 
-```txt id="6oh3x8"
+```txt id="sj3vq7"
 Secure admin authentication
-Modern dashboard interface
-Inventory management system
-Product image upload
-Automatic stock reduction
-Billing and invoice generation
-Real-time stock monitoring
-Low stock alert notifications
-Customer management
-Employee management
-Sales analytics dashboard
-Search and filtering system
-Responsive UI design
-Cloud image integration
+Inventory and stock management
+Cloud image upload system
+Automated billing workflow
+Real-time stock synchronization
+Low stock alert monitoring
+Customer management portal
+Employee management dashboard
+Sales analytics visualization
+Search and filtering engine
+Responsive dashboard interface
+Scalable MERN architecture
 ```
 
 ---
 
-# Tech Stack
+# Technology Stack
 
 <div align="center">
 
@@ -64,12 +66,12 @@ Cloud image integration
 
 # Architecture
 
-```txt id="v2md3v"
+```txt id="3skbgf"
 Frontend  -> React.js + Vite
 Backend   -> Node.js + Express.js
 Database  -> MongoDB
 Storage   -> Cloudinary + Multer
-Design    -> Responsive UI Architecture
+Design    -> Responsive Dashboard UI
 ```
 
 ---
@@ -78,7 +80,7 @@ Design    -> Responsive UI Architecture
 
 ## Clone Repository
 
-```bash id="c5vtq6"
+```bash id="7s2p4m"
 git clone https://github.com/Premhari-7/scent-bite.git
 
 cd scent-bite
@@ -88,7 +90,7 @@ cd scent-bite
 
 ## Frontend Setup
 
-```bash id="w9kh2s"
+```bash id="r3s6xv"
 npm install
 
 npm run dev
@@ -98,7 +100,7 @@ npm run dev
 
 ## Backend Setup
 
-```bash id="svlg2p"
+```bash id="v8g5kn"
 cd backend
 
 npm install
@@ -108,44 +110,30 @@ node server.js
 
 ---
 
-# Project Workflow
+# Application Workflow
 
-```txt id="pbmf87"
-1. Admin logs into dashboard
-2. Products added to inventory
-3. Images uploaded to cloud storage
-4. Billing workflow processes sales
-5. Product stock updates automatically
-6. Sales data stored in MongoDB
-7. Low stock alerts generated instantly
-```
-
----
-
-# Core Highlights
-
-```txt id="1d6g6g"
-Full-stack MERN architecture
-Cloud-based image upload
-Automated inventory synchronization
-Professional dashboard UI
-Scalable management workflow
-Business-oriented application structure
-Modern responsive interface
-Capstone project excellence
+```txt id="s3n9mf"
+1. Admin authentication
+2. Product inventory management
+3. Cloud image upload handling
+4. Automated billing process
+5. Dynamic stock updates
+6. MongoDB data synchronization
+7. Sales analytics generation
+8. Low stock notification alerts
 ```
 
 ---
 
 # Future Enhancements
 
-```txt id="w90gmd"
-AI perfume recommendation system
-Advanced sales analytics
-QR-based billing
-Online payment integration
-Mobile application support
+```txt id="xd6e5h"
+AI perfume recommendation engine
+Advanced analytics dashboard
+QR-based billing workflow
 AI chatbot integration
+Mobile application support
+Online payment gateway
 Multi-store management
 ```
 
@@ -157,7 +145,7 @@ Multi-store management
 
 ### Prem Hari S
 
-Full-Stack Developer • Frontend Developer • UI/UX Enthusiast
+Full-Stack Developer • Frontend Engineer • UI/UX Enthusiast
 
 <br>
 
@@ -165,7 +153,7 @@ Full-Stack Developer • Frontend Developer • UI/UX Enthusiast
 
 <br><br>
 
-Built with modern web technologies and scalable full-stack architecture.
+Designed with scalable architecture and modern web technologies.
 
 </div>
 
@@ -173,6 +161,6 @@ Built with modern web technologies and scalable full-stack architecture.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:1E293B&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:1E293B&height=140&section=footer"/>
 
 </div>
