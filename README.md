@@ -1,14 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:111827,100:1E293B&height=300&section=header&text=SCENT%20BITE&fontSize=55&fontColor=ffffff&animation=twinkling&fontAlignY=40"/>
+<img src="https://capsule-render.vercel.app/api?type=blur&height=280&color=0:020617,100:1E293B&text=SCENT%20BITE&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=40"/>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=30&pause=1000&color=94A3B8&center=true&vCenter=true&random=false&width=1000&lines=Modern+Perfume+Management+System;Full+Stack+MERN+Architecture;Inventory+%2B+Billing+Automation;Capstone+Project+Scored+100%2F100"/>
-
-<br><br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Premhari-7&theme=algolia&no-frame=true&row=1&column=6"/>
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=28&pause=1200&color=E2E8F0&center=true&vCenter=true&width=950&lines=Modern+Perfume+Management+Platform;Inventory+%2B+Billing+Automation;Built+with+MERN+Stack;Capstone+Project+Scored+100%2F100"/>
 
 <br><br>
 
@@ -16,40 +12,40 @@
 
 <br><br>
 
-<img src="https://img.shields.io/github/stars/Premhari-7/scent-bite?style=for-the-badge&logo=github&color=111827"/>
-<img src="https://img.shields.io/github/forks/Premhari-7/scent-bite?style=for-the-badge&logo=github&color=334155"/>
 <img src="https://img.shields.io/badge/MERN-FullStack-0F172A?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Capstone-100%2F100-1E293B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Capstone_Project-100%2F100-1E293B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Active-334155?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/UI-Responsive-475569?style=for-the-badge"/>
 
 </div>
 
 ---
 
-# System Overview
+# Overview
 
-SCENT BITE is a modern full-stack perfume inventory and billing management platform developed to automate perfume shop workflows through intelligent dashboard architecture and scalable business management systems.
+SCENT BITE is a modern full-stack perfume inventory and billing management application developed to automate and simplify perfume shop operations through intelligent workflow systems and responsive dashboard architecture.
 
-The application combines responsive frontend technologies with backend automation to deliver efficient inventory monitoring, billing operations, customer handling, and sales management.
+The platform combines scalable backend systems with modern frontend technologies to provide inventory tracking, billing automation, customer handling, employee management, and real-time business monitoring.
 
-Developed as a Final Year Capstone Project and awarded a perfect **100/100 evaluation score** for technical implementation, workflow automation, UI design, and full-stack integration.
+Successfully presented as a Final Year Capstone Project and awarded a **100/100 evaluation score** for technical implementation, UI/UX quality, workflow automation, and full-stack architecture.
 
 ---
 
-# Platform Features
+# Features
 
-```txt id="sj3vq7"
+```txt id="h3e5rk"
 Secure admin authentication
-Inventory and stock management
-Cloud image upload system
-Automated billing workflow
-Real-time stock synchronization
-Low stock alert monitoring
+Inventory management system
+Cloud image upload support
+Automatic stock reduction
+Billing workflow management
+Low stock alert system
 Customer management portal
 Employee management dashboard
-Sales analytics visualization
-Search and filtering engine
-Responsive dashboard interface
-Scalable MERN architecture
+Sales analytics interface
+Responsive dashboard architecture
+Search and filtering functionality
+Real-time inventory synchronization
 ```
 
 ---
@@ -66,12 +62,12 @@ Scalable MERN architecture
 
 # Architecture
 
-```txt id="3skbgf"
+```txt id="12ob4j"
 Frontend  -> React.js + Vite
 Backend   -> Node.js + Express.js
 Database  -> MongoDB
 Storage   -> Cloudinary + Multer
-Design    -> Responsive Dashboard UI
+UI Design -> Responsive Dashboard System
 ```
 
 ---
@@ -80,7 +76,7 @@ Design    -> Responsive Dashboard UI
 
 ## Clone Repository
 
-```bash id="7s2p4m"
+```bash id="z4f2oc"
 git clone https://github.com/Premhari-7/scent-bite.git
 
 cd scent-bite
@@ -90,7 +86,7 @@ cd scent-bite
 
 ## Frontend Setup
 
-```bash id="r3s6xv"
+```bash id="2pbj92"
 npm install
 
 npm run dev
@@ -100,7 +96,7 @@ npm run dev
 
 ## Backend Setup
 
-```bash id="v8g5kn"
+```bash id="t9xyga"
 cd backend
 
 npm install
@@ -110,30 +106,30 @@ node server.js
 
 ---
 
-# Application Workflow
+# Workflow
 
-```txt id="s3n9mf"
+```txt id="kr4wh5"
 1. Admin authentication
 2. Product inventory management
-3. Cloud image upload handling
-4. Automated billing process
-5. Dynamic stock updates
-6. MongoDB data synchronization
-7. Sales analytics generation
-8. Low stock notification alerts
+3. Image upload handling
+4. Billing workflow execution
+5. Dynamic stock synchronization
+6. MongoDB data management
+7. Sales analytics processing
+8. Low stock notification generation
 ```
 
 ---
 
 # Future Enhancements
 
-```txt id="xd6e5h"
+```txt id="mpq0fs"
 AI perfume recommendation engine
 Advanced analytics dashboard
-QR-based billing workflow
 AI chatbot integration
-Mobile application support
+QR-based billing workflow
 Online payment gateway
+Mobile application support
 Multi-store management
 ```
 
@@ -149,11 +145,11 @@ Full-Stack Developer • Frontend Engineer • UI/UX Enthusiast
 
 <br>
 
-<img src="https://skillicons.dev/icons?i=react,nodejs,mongodb,vscode,github"/>
+<img src="https://skillicons.dev/icons?i=react,nodejs,mongodb,github,vscode"/>
 
 <br><br>
 
-Designed with scalable architecture and modern web technologies.
+Built using modern web technologies and scalable MERN architecture.
 
 </div>
 
@@ -161,6 +157,6 @@ Designed with scalable architecture and modern web technologies.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:1E293B&height=140&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:020617,100:1E293B&section=footer"/>
 
 </div>
