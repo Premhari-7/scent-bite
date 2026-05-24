@@ -19,7 +19,7 @@
 
 <br><br>
 
-<img src="https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif" width="300"/>
+<img src="https://media.giphy.com/media/l0MYEqEzwMWFCg8rm/giphy.gif" width="280"/>
 
 </div>
 
@@ -27,7 +27,7 @@
 
 # Overview
 
-SCENT BITE is a modern full-stack perfume inventory and billing management platform developed to automate and simplify perfume shop operations through scalable workflow architecture and responsive dashboard systems.
+SCENT BITE is a modern full-stack perfume inventory and billing management platform designed to automate perfume shop operations through scalable workflow architecture and responsive dashboard systems.
 
 The application combines modern frontend technologies with efficient backend management to provide inventory tracking, billing automation, employee handling, customer management, sales monitoring, and intelligent stock synchronization through a clean and professional user experience.
 
@@ -37,7 +37,7 @@ This project achieved a **100/100 project evaluation score** for implementation 
 
 # Features
 
-```txt
+```txt id="yo8n2f"
 Secure admin authentication
 Modern responsive dashboard
 Inventory management system
@@ -55,6 +55,19 @@ Business-oriented workflow management
 
 ---
 
+# Dashboard Modules
+
+```txt id="d7g4rk"
+Dashboard
+Inventory
+Billing
+Employee
+Customer
+Sales Report
+```
+
+---
+
 # Tech Stack
 
 <div align="center">
@@ -67,7 +80,7 @@ Business-oriented workflow management
 
 # Architecture
 
-```txt
+```txt id="iq7v2m"
 Frontend  -> React.js + Vite
 Backend   -> Node.js + Express.js
 Database  -> MongoDB
@@ -81,7 +94,7 @@ Design    -> Responsive Dashboard UI
 
 ## Clone Repository
 
-```bash
+```bash id="t4m8qw"
 git clone https://github.com/Premhari-7/scent-bite.git
 
 cd scent-bite
@@ -91,7 +104,7 @@ cd scent-bite
 
 ## Frontend Setup
 
-```bash
+```bash id="n9c5se"
 npm install
 
 npm run dev
@@ -101,7 +114,7 @@ npm run dev
 
 ## Backend Setup
 
-```bash
+```bash id="x6p2jf"
 cd backend
 
 npm install
@@ -113,7 +126,7 @@ node server.js
 
 # Application Workflow
 
-```txt
+```txt id="q3v7lz"
 1. Admin authentication
 2. Product inventory management
 3. Product image upload handling
@@ -128,7 +141,7 @@ node server.js
 
 # Core Highlights
 
-```txt
+```txt id="j8m4wr"
 Full-stack MERN architecture
 Responsive dashboard interface
 Scalable inventory workflow
@@ -143,7 +156,7 @@ Modern frontend architecture
 
 # Future Enhancements
 
-```txt
+```txt id="f2s9xd"
 AI perfume recommendation engine
 Advanced analytics dashboard
 AI chatbot integration
