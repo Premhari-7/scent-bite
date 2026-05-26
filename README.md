@@ -92,6 +92,10 @@ cd scent-bite
 ## Frontend Setup
 
 ```bash id="u1v5er"
+cd scent_bite
+
+cd my-login-app
+
 npm install
 
 npm run dev
@@ -104,9 +108,13 @@ npm run dev
 ```bash id="o3w8hy"
 cd backend
 
+cd src
+
+cd server
+
 npm install
 
-node server.js
+node Server.cjs
 ```
 
 ---
